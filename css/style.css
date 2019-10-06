@@ -30,7 +30,7 @@
 .overlay.active {
     display: flex;
     transition: all 0.9s ease-in-out;
-    background-color:rgba(66, 58, 58, 0.541);
+    background-color:rgba(24, 23, 23, 0.541);
 }
 .sidebar-header{
     text-align: center;
@@ -41,7 +41,7 @@
 }
 .sidebarBtn{
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 3px;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -99,7 +99,6 @@ a{
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: black;
     background-size: cover;
 }
 .header{
@@ -135,6 +134,7 @@ a{
 .container{
     color: rgb(65, 70, 78);
 }
+
 .images{
     font-size: 70px;
     padding: 17px;
@@ -145,6 +145,6 @@ a{
 body, head, header{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(14, 12, 12);
 }
 
