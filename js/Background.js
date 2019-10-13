@@ -5,9 +5,6 @@ $(function(){
     setInterval(function(){
         currentBackgound++;
         if(currentBackgound>2) currentBackgound = 0;
-        $("#header").fadeOut(1000, function(){
-            $("#header").css({backgroundImage:"url("+backgrounds[currentBackgound]+")", backgroundColor: "black"});
-            $("#header").fadeIn(1000);
-        });
+        $("#header").css({backgroundImage:"url("+backgrounds[currentBackgound]+")"});
     },10000);
 });
